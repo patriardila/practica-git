@@ -11,6 +11,7 @@ package practicagit1;
 public class Carro {
     String marca;
     String color;
+    int velocidad;
 
     public Carro(String marca, String color) {
         this.marca = marca;
@@ -22,6 +23,9 @@ public class Carro {
         sb.append("Marca: ").append(marca).append("\n");
         sb.append("Color: ").append(color).append("\n");
         return sb.toString();
+    }
+    public void acelerar() {
+        velocidad += 10;
     }
     
 }
