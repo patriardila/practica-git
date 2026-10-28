@@ -27,5 +27,8 @@ public class Carro {
     public void acelerar() {
         velocidad += 10;
     }
+    public void frenar() {
+        velocidad = 0;
+    }
     
 }
